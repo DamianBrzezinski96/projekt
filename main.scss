@@ -1,0 +1,45 @@
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+
+// Style dla pliku z przykładem HTML fragmentu
+
+/*     HEADER   */
+
+@import './index/header';
+@import './index/hero';
+
+/*    BASE    */
+
+@import './base/common';
+
+/*    UTILS    */
+
+@import './utils/setup';
+@import './utils/variables';
+
+/*    COMPONENTS    */
+
+@import './components/secondary-title';
+
+/*    PARTIALS    */
+
+@import './components/span-accent';
+
+/*    INDEX    */
+
+@import './index/how-we-do';
+@import './index/program';
+@import './index/advantages';
+
+@import './index/guarantee';
+@import './index/reviews';
+
+@import './index/about';
+
+@import './index/problems';
+
+@import './index/contacts';
+@import './index/footer';
+@import './index/benefits';
